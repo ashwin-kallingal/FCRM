@@ -14,7 +14,9 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.apache.commons.io.FileUtils;
-
+/*Author Ashwin Kumar */
+/* Date 14/May/2018 */
+/* Approved */
 public class Utility {
 	
 	public static String getFormattedDateTime()
