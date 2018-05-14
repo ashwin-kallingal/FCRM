@@ -61,7 +61,7 @@ public class BaseTest implements AutomationConstant
 	public void initExtentReport()
 	{
 		log.info("Initializing Extent Report");
-		eReport = new ExtentReports(REPORT_PATH+"/"+Utility.getFormattedDateTime()+".html");
+		eReport = new ExtentReports(REPORT_PATH+"/"+"ExtentReport"+".html");
 		url=Property.getPropertyValue(CONFIG_FILE, "URL");
 		un=Property.getPropertyValue(CONFIG_FILE, "UN");
 		pw=Property.getPropertyValue(CONFIG_FILE, "PW");
