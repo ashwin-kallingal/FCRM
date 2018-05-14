@@ -28,8 +28,14 @@ public class Utility {
 		
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File srcFile = ts.getScreenshotAs(OutputType.FILE);
+<<<<<<< HEAD
 			
 			String destFile = "F://PFCRM//FCRM//snapshot"+"/"+getFormattedDateTime()+"-"+name+".png";
+=======
+
+			String destFile = "E://pfrm-MainProject//FCRM//snapshot"+"/"+getFormattedDateTime()+"-"+name+".png";
+
+>>>>>>> branch 'master' of https://github.com/ashwin-kallingal/FCRM
 			File finaldestFile = new File(destFile);
 			FileUtils.copyFile(srcFile, finaldestFile);			
 			

@@ -1,4 +1,10 @@
 package com.fcrm.common;
+<<<<<<< HEAD
+=======
+
+/*Author Ashwin Kumar */
+/* Date 14/May/2018 */
+>>>>>>> branch 'master' of https://github.com/ashwin-kallingal/FCRM
 
 public interface AutomationConstant 
 {	

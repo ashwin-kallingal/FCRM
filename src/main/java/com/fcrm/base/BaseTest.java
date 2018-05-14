@@ -1,5 +1,12 @@
 package com.fcrm.base;
+<<<<<<< HEAD
 
+=======
+
+/* Author Ashwin Kallingal */
+/* Date : 14/May/2018 */
+
+>>>>>>> branch 'master' of https://github.com/ashwin-kallingal/FCRM
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
