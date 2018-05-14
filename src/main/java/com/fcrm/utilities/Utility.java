@@ -31,9 +31,7 @@ public class Utility {
 		
 			TakesScreenshot ts = (TakesScreenshot)driver;
 			File srcFile = ts.getScreenshotAs(OutputType.FILE);
-
 			String destFile = "E://pfrm-MainProject//FCRM//snapshot"+"/"+getFormattedDateTime()+"-"+name+".png";
-
 			File finaldestFile = new File(destFile);
 			FileUtils.copyFile(srcFile, finaldestFile);			
 			
